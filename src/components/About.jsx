@@ -3,7 +3,7 @@ import AboutPicture from "../assets/AboutImage.png";
 function About() {
     return (
         <section id="about">
-            <div className="flex min-h-screen flex-col items-center sm:pt-40 justify-between gap-12 p-6 md:flex-row md:p-12 lg:p-20">
+            <div className="flex min-h-screen flex-col items-center sm:pt-25 justify-between gap-12 px-6  md:flex-row md:p-12 lg:p-20">
 
                 {/* Image */}
                 <div className="flex w-full justify-center md:w-1/2">

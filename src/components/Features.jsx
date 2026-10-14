@@ -26,7 +26,7 @@ const features = [
 function Features() {
     return (
         <section id="features" className=''>
-            <div className="flex min-h-screen flex-col items-center justify-center px-6 py-16">
+            <div className="flex min-h-screen flex-col items-center justify-center px-6 md:py-16 py-25 ">
 
                 {/* Heading */}
                 <div className="flex flex-col items-center text-center">
