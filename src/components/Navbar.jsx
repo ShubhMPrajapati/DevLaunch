@@ -22,16 +22,18 @@ function Navbar() {
     return (
         <div className=" back fixed top-0 left-0 w-full z-50">
             <nav className="flex items-center justify-between px-6 py-6 shadow-xl md:px-16 gap-5 ">
-                <h1 className="text-3xl font-bold">
-                    Dev<span className="text-blue-500">Launch</span>
-                </h1>
+                <a href="#home">
+                    <h1 className="text-3xl font-bold cursor-pointer">
+                        Dev<span className="text-blue-500">Launch</span>
+                    </h1>
+                </a>
 
                 <div className="hidden gap-8 md:flex">
                     {links.map((link) => (
                         <a
                             key={link}
                             href={`#${link.toLowerCase()}`}
-                            className="cursor-pointer transition hover:text-blue-500 tracking-widest"
+                            className="cursor-pointer border-b-2 border-transparent pb-2 tracking-widest transition-all duration-300 hover:border-blue-600 hover:text-blue-500"
                         >
                             {link}
                         </a>

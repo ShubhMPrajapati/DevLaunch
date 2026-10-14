@@ -18,7 +18,7 @@ function About() {
                 <div className="flex w-full flex-col gap-5 text-center md:w-1/2 md:text-left textUp p-20  rounded-3xl shadow-xl hover:shadow-2xl">
 
                     <h1 className="text-4xl font-bold tracking-wide">
-                        Why Dev<span className="text-blue-500">Launch</span>?
+                        Why  <span className="tracking-tighter">Dev<span className="text-blue-500">Launch</span></span>?
                     </h1>
 
                     <div className="flex flex-col gap-1">

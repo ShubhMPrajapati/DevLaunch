@@ -3,6 +3,7 @@ import Features from "./components/Features"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Features />
       <About />
+      <Contact />
     </div>
   )
 }

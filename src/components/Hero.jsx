@@ -46,7 +46,7 @@ function Hero() {
                         </h2>
                     </div>
 
-                    <p className="max-w-lg text-gray-600">
+                    <p className="max-w-lg text-gray-600 tracking-wider">
                         DevLaunch helps you learn programming, build real-world
                         projects, and track your progress - all in one place.
                     </p>
