@@ -30,9 +30,7 @@ function Features() {
 
                 {/* Heading */}
                 <div className="flex flex-col items-center text-center">
-                    <p className="text-sm font-semibold tracking-widest text-blue-500">
-                        FEATURES
-                    </p>
+
 
                     <h2 className="mt-3 text-3xl font-bold md:text-4xl">
                         Everything You Need to Succeed
