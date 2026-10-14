@@ -20,9 +20,9 @@ function Navbar() {
     }, []);
 
     return (
-        <div className="bg-white fixed top-0 left-0 w-full z-50">
+        <div className=" back fixed top-0 left-0 w-full z-50">
             <nav className="flex items-center justify-between px-6 py-6 shadow-xl md:px-16 gap-5 ">
-                <h1 className="text-2xl font-bold">
+                <h1 className="text-3xl font-bold">
                     Dev<span className="text-blue-500">Launch</span>
                 </h1>
 
@@ -38,7 +38,7 @@ function Navbar() {
                     ))}
                 </div>
 
-                <button className="hidden rounded-lg bg-blue-500 px-5 py-3 text-white transition hover:bg-blue-600 md:block tracking-widest">
+                <button className="hidden rounded-lg bg-blue-500 px-5 py-3 text-white transition hover:bg-blue-600 md:block tracking-wide">
                     Get Started
                 </button>
 

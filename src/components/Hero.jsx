@@ -2,7 +2,7 @@ import Developer from "../assets/Develope.png"
 function Hero() {
     return (
         <section className="" id="home">
-            <div className="flex flex-col items-center gap-2 px-20 py-30 md:py-20  md:flex-row md:justify-between md:px-12 lg:px-30 min-h-screen">
+            <div className="flex flex-col items-center gap-2 px-20 py-30  md:pt-30  md:flex-row md:justify-between md:px-12 lg:px-30 min-h-screen">
 
                 {/* Left side */}
                 <div className="flex flex-col gap-5 md:w-1/2">
@@ -72,7 +72,7 @@ function Hero() {
                     <img
                         src={Developer}
                         alt="Developer workspace"
-                        className="w-full  object-contain"
+                        className="w-full object-contain"
                     />
                 </div>
 
