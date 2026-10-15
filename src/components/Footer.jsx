@@ -1,5 +1,5 @@
 function Footer() {
-    const links = ["Home", "Features", "About", "Contact"];
+    // const links = ["Home", "Features", "About", "Contact"];
 
     return (
         <footer className="bg-slate-900 text-white">
