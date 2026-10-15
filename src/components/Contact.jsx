@@ -22,7 +22,7 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div className="min-h-screen flex flex-col  pt-25 justify-center items-center gap-10  px-6 ">
+      <div className="min-h-screen flex flex-col  justify-center items-center gap-10  pt-26 px-6 ">
         <div className="flex flex-col items-center justify-center gap-3 text-center">
 
 
